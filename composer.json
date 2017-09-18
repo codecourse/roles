@@ -1,0 +1,17 @@
+{
+    "name": "codecourse/roles",
+    "description": "Internal role/permission management",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alex Garrett",
+            "email": "alex@codecourse.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Codecourse\\Roles\\": "src"
+        }
+    }
+}
