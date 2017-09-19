@@ -8,11 +8,20 @@
             "email": "alex@codecourse.com"
         }
     ],
-    "require": {},
+    "require-dev": {
+        "orchestra/testbench": "^3.5",
+        "phpunit/phpunit": "^6.3"
+    },
     "autoload": {
         "psr-4": {
             "Codecourse\\Roles\\": "src"
         }
+    },
+    "autoload-dev": {
+        "classmap": [
+            "tests/TestCase.php",
+            "tests/stubs/User.php"
+        ]
     },
     "extra": {
         "laravel": {
