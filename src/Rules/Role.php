@@ -34,7 +34,9 @@ class Role implements Rule
      */
     public function passes($attribute, $value)
     {
-        $user = User::where($attribute, $value)->first();
+        $model = config('auth.providers.users.model');
+
+        $user = (new $model)::where($attribute, $value)->first();
 
         if (!$user) {
             return false;
