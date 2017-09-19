@@ -13,5 +13,12 @@
         "psr-4": {
             "Codecourse\\Roles\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Codecourse\\Roles\\RolesServiceProvider"
+            ]
+        }
     }
 }

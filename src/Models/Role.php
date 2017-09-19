@@ -1,6 +1,6 @@
 <?php
 
-namespace Codecourse\Roles;
+namespace Codecourse\Roles\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

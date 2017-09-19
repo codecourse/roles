@@ -2,7 +2,6 @@
 
 namespace Codecourse\Roles\Rules;
 
-use App\User;
 use Illuminate\Contracts\Validation\Rule;
 
 class Role implements Rule

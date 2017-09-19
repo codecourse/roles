@@ -2,6 +2,8 @@
 
 namespace Codecourse\Roles;
 
+use Codecourse\Roles\Models\Role;
+
 trait HasRoles
 {
     /**
